@@ -16,6 +16,14 @@ public class Vehicule {
 
 
 
+	public Vehicule(int prix) {
+		super();
+		this.prix = prix;
+	}
+
+
+
+
 	public int calculerPrix(){
 		return prix+option1.prix+option2.prix;
 	}
